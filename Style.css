@@ -1,0 +1,111 @@
+/* Estilizando o título */
+header {
+    background-image: url(https://media.gettyimages.com/id/1327264496/pt/vetorial/abstract-network-background-big-data-design.jpg?s=612x612&w=gi&k=20&c=6l43jXhiYPb1mSVSA4b8r6si8MP60om2HW7uy0KB3qM=);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+#search-container {
+    margin: 1% 0;
+    border-radius: 20px;
+    display: flex; /* Adicionado flex para posicionar os elementos lado a lado */
+    align-items: center;
+    justify-content: space-between;
+}
+#title {
+    margin: auto;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+#search {
+    flex: 1; /* Ocupa o máximo de espaço possível para acomodar o botão ao lado */
+    width: 60%;
+    padding: 10px;
+    border: 2px solid #6b7d86;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+
+}
+/* Adicione a regra de estilo abaixo para evitar quebras de linha entre os elementos */
+#search-container form {
+    display: flex;
+    width: 50%;
+}
+button[type="submit"] {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 20%;
+    /* Defina a largura do botão desejada */
+    margin-left: 10px;
+    /* Adicione um espaço entre a barra de pesquisa e o botão */
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h2 {
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.image {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.conteudo {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 700px;
+
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+
+    .conteudo {
+        width: 90%;
+    }
+}
